@@ -1,0 +1,114 @@
+body{
+    background-color: #727272;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    height: 39px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+
+nav li img{
+    width: 34px;
+    height: 34px;
+}
+#brandLogo{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+ }
+
+ .bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 72vh;  
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    width: 70%;
+    display: flex;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.SongItemContainer{
+    margin-top: 70px;
+}
+.SongItem{
+    height: 40px;
+    margin: 6px 0px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    
+}
+
+.SongItem img{
+    height: 36px;
+    width: 36px;
+    border-radius: 6px;
+    margin-left: 14px;
+}
+ 
+.SongListPlay{
+    padding: 0px 8px;
+}
+
+.SongListPlay i{
+    cursor: pointer;
+}
+
+.TimeStamp{
+    padding:0px 8px;
+}
+
+
+ .font{
+    margin-top: 14px;
+ }
+
+ .font i{
+    cursor: pointer;
+ }
+
+ #SongBar{
+    width: 80vw;
+    
+ }
+
+ .SongInfo{
+    position: absolute;
+    left: 10vw;
+    color: #fff;
+ }
+ .SongInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+ }
